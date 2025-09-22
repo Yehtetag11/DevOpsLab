@@ -1,5 +1,13 @@
-![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/Yehtetag11/DevOpsLab/ci.yml?branch=develop&style=flat-square)
+# Software Engineering Methods
 
-[![LICENSE](https://img.shields.io/github/license/Yehtetag11/DevOpsLab.svg?style=flat-square)](https://github.com/Yehtetag11/DevOpsLab/blob/master/LICENSE)
+- **Master Build Status**  
+  ![Build Status](https://img.shields.io/github/actions/workflow/status/Yehtetag11/DevOpsLab/main.yml?branch=master)
 
-[![Releases](https://img.shields.io/github/release/Yehtetag11/DevOpsLab/all.svg?style=flat-square)](https://github.com/Yehtetag11/DevOpsLab/releases)
+- **Develop Build Status**  
+  ![Build Status](https://img.shields.io/github/actions/workflow/status/Yehtetag11/DevOpsLab/main.yml?branch=develop)
+
+- **License**  
+  ![License](https://img.shields.io/badge/license-Apache%202.0-green)
+
+- **Release**  
+  ![Release](https://img.shields.io/badge/release-none-lightgrey)
