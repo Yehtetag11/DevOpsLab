@@ -1,2 +1,1 @@
-# DevOps
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Yehtetag11/DevOpsLab/<action name taken from main.yml>/<branch>?style=flat-square)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/Yehtetag11/DevOpsLab/ci.yml?branch=develop&style=flat-square)
