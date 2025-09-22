@@ -1,1 +1,1 @@
-![workflow](https://github.com/<UserName>/<RepositoryName>/actions/workflows/main.yml/badge.svg)
+[![Releases](https://img.shields.io/github/release/Yehtetag11/DevOpsLab.svg?style=flat-square)](https://github.com/Yehtetag11/DevOpsLab/releases)
