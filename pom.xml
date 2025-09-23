@@ -5,18 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.napier.sem</groupId>
-    <artifactId>Devops_Project_Lab</artifactId>
+    <artifactId>Test2</artifactId>
     <version>0.1.0.2</version>
 
     <properties>
-        <!-- Compile with Java 17 (LTS) -->
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
-        <!-- MongoDB driver -->
+        <!-- Modern MongoDB Java driver (sync API) -->
         <dependency>
             <groupId>org.mongodb</groupId>
             <artifactId>mongodb-driver</artifactId>
@@ -56,4 +55,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

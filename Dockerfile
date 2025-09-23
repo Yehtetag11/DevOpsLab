@@ -1,4 +1,9 @@
-FROM openjdk:19
-COPY ./target/app-jar-with-dependencies.jar /tmp
+#FROM openjdk:19
+#COPY ./target/classes /tmp
+#WORKDIR /tmp
+#ENTRYPOINT ["java", "imc.com.App"]
+
+FROM openjdk:latest
+COPY ./target/devops-0.1.0.1-jar-with-dependencies.jar /tmp
 WORKDIR /tmp
-ENTRYPOINT ["java", "-jar", "app-jar-with-dependencies.jar"]
+ENTRYPOINT ["java", "-jar", "devops-0.1.0.1-jar-with-dependencies.jar"]
