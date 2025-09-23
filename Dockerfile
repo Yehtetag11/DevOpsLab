@@ -1,4 +1,4 @@
 FROM openjdk:24
-COPY ./target/classes/com /tmp/com
+COPY ./target/classes /tmp
 WORKDIR /tmp
-ENTRYPOINT ["java", "com.napier.sem.Main"]
+ENTRYPOINT ["java", "imc.com.App"]
