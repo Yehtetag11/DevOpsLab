@@ -1,9 +1,9 @@
 #FROM openjdk:19
-#COPY ./target/classes /tmp
+#COPY ./target/classes/com /tmp/com
 #WORKDIR /tmp
-#ENTRYPOINT ["java", "imc.com.App"]
+#ENTRYPOINT ["java", "com.napier.sem.Main"]
 
-FROM openjdk:199
-COPY ./target/app-jar-with-dependencies.jar /tmp
+FROM openjdk:19
+COPY ./target/DevOpsLab-0.1.0.3-jar-with-dependencies.jar /tmp
 WORKDIR /tmp
-ENTRYPOINT ["java", "-jar", "app-jar-with-dependencies.jar"]
+ENTRYPOINT ["java", "-jar", "DevOpsLab-0.1.0.3-jar-with-dependencies.jar"]
