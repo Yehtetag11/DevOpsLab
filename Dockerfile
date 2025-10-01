@@ -1,4 +1,9 @@
-FROM openjdk:24
-COPY ./target/classes/com /tmp/com
+#FROM openjdk:19
+#COPY ./target/classes/com /tmp/com
+#WORKDIR /tmp
+#ENTRYPOINT ["java", "com.napier.sem.Main"]
+
+FROM openjdk:19
+COPY ./target/DevOpsLab-0.1.0.2-jar-with-dependencies.jar /tmp
 WORKDIR /tmp
-ENTRYPOINT ["java", "com.napier.sem.Main"]
+ENTRYPOINT ["java", "-jar", "DevOpsLab-0.1.0.2-jar-with-dependencies.jar"]
